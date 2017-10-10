@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weekend Challenge Week One: Laura Goetz</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+    <script src="vendors/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="scripts/script.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class = "container">
+
+      <div class = "userInput">
+
+        <div id = "firstName">
+          <h1>Enter your First Name</h1>
+            <div class = "values">
+            <input type="text" class = "inputField" id = "firstNameInput">
+            </div>
+        </div>
+
+        <div id = "lastName">
+          <h1>Enter your Last Name</h1>
+            <div class = "values">
+            <input type="text" class = "inputField" id = "lastNameInput">
+            </div>
+        </div>
+
+        <div id = "idNum">
+          <h1>Enter your ID Number</h1>
+            <div class = "values">
+            <input type="text" class = "inputField" id = "idNumInput">
+            </div>
+        </div>
+
+        <div id = "jobTitle">
+          <h1>Enter your Job Title</h1>
+            <div class = "values">
+            <input type="text" class = "inputField" id = "jobTitleInput">
+            </div>
+        </div>
+
+      <div id = "annualSal">
+        <h1>Enter your Annual Salary</h1>
+          <div class = "values">
+          <input type="text" class = "inputField" id = "annualSalInput">
+          </div>
+      </div>
+
+      <button type="button" id = "submitBtn">SUBMIT ALL</button>
+
+      <div class = "userResults">
+        <h1></h1>
+        <table
+          <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Employee Id</th>
+            <th>Job Title</th>
+            <th>Annual Salary</th>
+          </tr>
+        </thead>
+        <tbody id = "empTable">
+
+        </tbody>
+        </table>
+        <div id = "total">
+
+        </div>
+
+        <button type="button" id="removeBtn">REMOVE</button>
+      </div>
+
+    </div>
+
+  </body>
+</html>

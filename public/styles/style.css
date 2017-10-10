@@ -1,0 +1,41 @@
+
+html{
+background:
+    repeating-linear-gradient(190deg, rgb(129,251, 250) 40px,
+      rgba(217, 217, 217, 217) 80px, rgb(129,251, 250) 120px,
+      rgba(112, 112, 112, 112) 160px, rgba(112, 112, 112,112) 200px,
+      rgba(153, 153, 153, 153) 240px, rgba(153, 153, 153, 153) 280px,
+      rgb(129,251, 250) 300px),
+    repeating-linear-gradient(160deg, gray 200px, gray 250px);
+background-size: 300%
+}
+
+h1{
+  margin: 0px;
+  font-size: 30px;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+
+button{
+  font-size: 20px;
+  font-family: 'Reenie Beanie', cursive;
+  color: white;
+  background: linear-gradient(to right, skyblue,gray);
+}
+
+.userResults{
+  font-size: 45px;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+#empTable{
+  font-size: 30px;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+
+table,thead,tbody, th, td {
+    border: 1px solid black;
+    font-family: 'Reenie Beanie', cursive;
+}
